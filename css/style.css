@@ -1,0 +1,32 @@
+.title-page {
+    text-align: center;
+    font-family: 'Segoe UI';
+    color: white;
+    padding-top: 1em;
+}
+
+.card-botton {
+    margin-bottom: 1em;
+}
+
+.check-obtenido {
+    left: 7.5em;
+}
+
+body {
+    background-image: url("../img/slider-img-1.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+   
+}
+li {
+    font-family: 'Segoe UI';
+    font-size: 2em;
+}
+
+.justificado {
+    text-align: justify;
+}
+

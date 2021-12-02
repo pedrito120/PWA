@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>SAVE MENU</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'> -->
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css.map'>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+    <!-- <link rel="manifest" href="manifest.webmanifest"> -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+	
+    <link rel='stylesheet' type='text/css' media='screen' href='css/nav.css'>
+    <!-- <script src="app.js" defer></script> -->
+</head>
+
+<body class=" h-100 text-center text-white bg-dark">
+	<nav class="navbar navbar-expand navbar-dark bg-dark">
+
+        <div class="collapse navbar-collapse center" >
+            <ul class="navbar-nav ">
+                <li class="nav-item ">
+                    <a class="nav-link " href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">|</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="pdfs.html">Menus</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <canvas id="the-canvas"></canvas>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <div id="infoWeapon">
+            <section class="container">
+                <div class="row">
+                    <div class="col-12" >
+                        <table class="table bg-dark" style="background-color: rgba(100, 100, 100, 1); color: white">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">titulo</th>
+                                    <th scope="col">Ver</th>
+                                </tr>
+                            </thead>
+                            <tbody id="llenarPdfs">
+                               
+                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src='archivosPdfs.js'></script>
+    <script src='js/bootstrap.js'></script>
+    <script>
+        if (navigator.onLine) {
+            console.log("si hay conesxion");
+        } else {
+            console.log("no hay internet");
+        }
+    </script>
+</body>
+
+</html>
